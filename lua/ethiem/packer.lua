@@ -22,10 +22,14 @@ return require('packer').startup(function(use)
 
   use 'AlexvZyl/nordic.nvim'
 
+  use { "catppuccin/nvim", as = "catppuccin" }
+
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
+
+  use 'freddiehaddad/feline.nvim'
 
   use {
     'nvim-tree/nvim-tree.lua',

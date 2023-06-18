@@ -1,4 +1,4 @@
-require('lualine').setup {
+--[[require('lualine').setup {
   options = {
     icons_enabled = true,
     theme = 'ayu_mirage',
@@ -39,4 +39,4 @@ require('lualine').setup {
   extensions = {}
 }
 
-require('lualine').setup()
+require('lualine').setup()]]--
