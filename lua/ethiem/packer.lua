@@ -40,6 +40,8 @@ return require('packer').startup(function(use)
 
   use { "theprimeagen/harpoon" }
 
+  use 'ThePrimeagen/vim-be-good'
+
   use { "nvim-treesitter/nvim-treesitter" }
 
   use {
